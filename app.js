@@ -22,7 +22,13 @@ app.get('/adminLogin', function(req, res) {
 app.get('/teams', function(req, res) {
   res.render('pages/teams');
 });
+<<<<<<< HEAD
 
+=======
+app.get('/landing', function(req, res) {
+  res.render('pages/landing');
+});
+>>>>>>> 542badfea129dbc6d830a7b27020e6dd1ac38901
 app.listen(8080);
 console.log('Server is listening on port 8080');
 app.use(express.static(__dirname + '/public'));
