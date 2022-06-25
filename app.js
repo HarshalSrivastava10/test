@@ -31,6 +31,10 @@ app.get('/admin-dashboard', function(req, res) {
   res.render('pages/admin');
 });
 
+app.get('/user-authentication', function(req, res) {
+  res.render('pages/roleAuth');
+});
+
 app.listen(8080);
 console.log('Server is listening on port 8080');
 app.use(express.static(__dirname + '/public'));
