@@ -15,6 +15,9 @@ app.get('/about', function(req, res) {
 app.get('/auth', function(req, res) {
   res.render('pages/auth');
 });
+app.get('/adminLogin', function(req, res) {
+  res.render('pages/adminLogin');
+});
 
 
 app.listen(8080);
