@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="/CSS/navbar.css" rel="stylesheet" type="text/css">   
+    </head>
+<nav class="navigation" id="navigation">
+    <div class="container">
+      <div class="logo">logo</div>
+      <ul class="navigation-links">
+        <li>home</li>
+        <li>shop</li>
+        <li class="active">about</li>
+        <li>contact</li>
+        <a href="javascript:void(0);" class="icon" onclick="responsiveMenu()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </ul>
+    </div>
+  </nav>
+  <script>
+    function responsiveMenu() {
+  var x = document.getElementById("navigation");
+  if (x.className === "navigation") {
+    x.className += " responsive";
+  } else {
+    x.className = "navigation";
+  }
+}
+</script>
+</html>

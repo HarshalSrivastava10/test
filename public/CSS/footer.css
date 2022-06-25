@@ -1,0 +1,23 @@
+@import url('../../node_modules/font-awesome/css/font-awesome.min.css');
+
+.container {
+    text-align: center;
+    color: black;
+}
+
+.fa-heart {
+    color: maroon;
+}
+
+.footer-logo {
+    font-size: 2vw;
+}
+
+.footer-social-icon {
+    font-size: 2vw;
+    padding-left: 1vw;
+}
+
+.footer-social-icon .fa {
+    color: rgb(243, 174, 46)
+}
